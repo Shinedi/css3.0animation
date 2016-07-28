@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>交通灯</title>
+<style>
+#d1,#d2,#d3{
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	float:left;
+	}
+	
+.c1{
+	animation:fun1 10s ease-in 0s ;
+	}
+@keyframes fun1{
+	0%{
+		background:#F00;}
+	100%{
+		background:#F00;
+		}	
+		}
+.c2{
+	animation:fun2 10s ease-in 10s;
+	}
+@keyframes fun2{
+	0%{
+		background:#0F0;}
+	100%{
+		background:#0F0;
+		}	
+		}
+.c3{
+	animation:fun3 3s ease-in 20s;
+	}
+@keyframes fun3{
+	0%{
+		background:#FC3;}
+	100%{
+		background:#FC3;
+		}	
+		}
+</style>
+</head>
+
+<body>
+<div id="d1" class="c1"></div>
+<div id="d2" class="c2"></div>
+<div id="d3" class="c3"></div>
+</body>
+</html>
